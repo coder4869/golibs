@@ -24,3 +24,10 @@ Setp2: run testing cmd
 
 Step3:review the testing result
 
+# MORE
+golang debug with LiteIDE: 
+	"Build" menu --> "Build Configuration..." option --> "Custom" tab --> "BUILDARGS" --> write -gcflags "-N -l" --> Save & Rebuild --> F5 --> OK
+	Reference: http://studygolang.com/articles/4770
+
+
+
