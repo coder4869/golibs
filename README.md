@@ -24,6 +24,8 @@ Setp2: run testing cmd
 
 Step3:review the testing result
 
+GO Testing Reference:http://studygolang.com/articles/1889
+
 # MORE
 golang debug with LiteIDE: 
 
