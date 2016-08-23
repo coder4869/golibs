@@ -21,6 +21,19 @@ run test of standard libs: $ go test std
 
 get test cases' coverage: $ go test -cover
 
+run Parallel Test: $ go test -bench=".*"
+
+1.Parallel Test
+
+Run: $ go test -bench=".*"
+
+Result:
+
+	PASS
+	#         function name	       CPU  loop times	 each loop's time
+	Benchmark_GETReqWithURLParallel-4	  200000	      9054 ns/op
+	Benchmark_GETReqWithURL-4        	 1000000	      2050 ns/op
+	ok  	github.com/coder4869/golibs/gltest	14.687s
 
 # MORE
 

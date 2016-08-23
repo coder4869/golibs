@@ -22,4 +22,22 @@ func TestGETReqWithURL(t *testing.T) {
 }
 
 /*
- */
+	Parallel Test
+*/
+func Benchmark_GETReqWithURLParallel(b *testing.B) {
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			reqURL := "https://github.com/coder4869/golibs/blob/master/README.md"
+			go glnet.GETReqWithURL(reqURL)
+		}
+	})
+}
+
+func Benchmark_GETReqWithURL(b *testing.B) {
+	// must run b.N times. b.N will auto-adjust in running,
+	// this ensure both time cost and caculated test data is reasonable.
+	for i := 0; i < b.N; i++ {
+		reqURL := "https://github.com/coder4869/golibs/blob/master/README.md"
+		go glnet.GETReqWithURL(reqURL)
+	}
+}
