@@ -1,3 +1,4 @@
+```
 <1> mkdir **: permission denied
 Solution 1: 
 	step 1: go to target directory in terminal
@@ -13,3 +14,5 @@ More points:
 	first 7 means current user has read(4)+write(2)+excute(1) permissions,
 	second 7 means user's group has read(4)+write(2)+excute(1) permissions,
 	last 7 means other user has read(4)+write(2)+excute(1) permissions.
+```
+

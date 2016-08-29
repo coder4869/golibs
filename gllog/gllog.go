@@ -1,3 +1,10 @@
+// Copyright (c) 2016 coder4869 ( https://github.com/coder4869/golibs ). All rights reserved.
+// Use of this source code is governed by a MIT-style
+// license that can be found in the LICENSE file.
+
+/*	gllog/gllog.go
+ */
+
 package gllog
 
 import (
@@ -91,22 +98,3 @@ func SetCurrentFileName() {
 	_, logPrintFileName, logPrintFileLine, _ := runtime.Caller(0)
 	fmt.Printf("logPrintFileName=%v,logPrintFileLine=%d\n", logPrintFileName, logPrintFileLine)
 }
-
-// GetCurFilename
-// Get current file name, without suffix
-//func GetCurFilename() string {
-//	_, fulleFilename, _, _ := runtime.Caller(0)
-//	//fmt.Println(fulleFilename)
-//	var filenameWithSuffix string
-//	filenameWithSuffix = path.Base(fulleFilename)
-//	//fmt.Println("filenameWithSuffix=", filenameWithSuffix)
-//	var fileSuffix string
-//	fileSuffix = path.Ext(filenameWithSuffix)
-//	//fmt.Println("fileSuffix=", fileSuffix)
-
-//	var filenameOnly string
-//	filenameOnly = strings.TrimSuffix(filenameWithSuffix, fileSuffix)
-//	//fmt.Println("filenameOnly=", filenameOnly)
-
-//	return filenameOnly
-//}
