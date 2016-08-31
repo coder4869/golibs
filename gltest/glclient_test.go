@@ -3,7 +3,8 @@
 // license that can be found in the LICENSE file.
 
 /*	gltest/glclient_test.go
- */
+	provides functions' test cases for methods "func GETReqWithURL()" in "glnet/glclient.go" file
+*/
 
 package test
 

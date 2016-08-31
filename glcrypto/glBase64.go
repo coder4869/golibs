@@ -3,7 +3,12 @@
 // license that can be found in the LICENSE file.
 
 /*	glcrypto/glBase64.go
- */
+	provides base64 encoding and decoding operations of following results:
+	[1].AES encrypto and decrypto
+	[2].DES encrypto
+
+Attention: the crypto related operations refer to “glcrypto/glAesDes.go”
+*/
 
 package glcrypto
 

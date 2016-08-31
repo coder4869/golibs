@@ -3,7 +3,8 @@
 // license that can be found in the LICENSE file.
 
 /*	gllog/gllog.go
- */
+	provides creating log file and appending logs functions
+*/
 
 package gllog
 

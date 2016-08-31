@@ -3,7 +3,8 @@
 // license that can be found in the LICENSE file.
 
 /*	glnet/glclient.go
- */
+	provides GET/POST URL request methods
+*/
 
 package glnet
 

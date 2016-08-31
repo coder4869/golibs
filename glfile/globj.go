@@ -3,7 +3,8 @@
 // license that can be found in the LICENSE file.
 
 /*	glfile/globj.go
- */
+	contains files and objects operations
+*/
 package glfile
 
 import (

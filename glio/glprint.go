@@ -3,7 +3,13 @@
 // license that can be found in the LICENSE file.
 
 /*	glio/glprint.go
- */
+	provides output operations of following types:
+	[1].console
+	[2].log file
+	[3].client
+
+Attention: if os.Stdout/os.Stderr ect. are set, the type of "log file" output will be ignored
+*/
 
 package glio
 

@@ -4,6 +4,12 @@
 
 /*	glcrypto/glAesDes.go
 From:  https://github.com/polaris1119/myblog_article_code
+	provides encrypto and decrypto operations of following types:
+	[1].AES
+	[2].3DES
+	[3].DES
+
+Attention: calling examples refer to “glcrypto/glBase64.go”
 */
 
 package glcrypto
